@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>T4</title>
+</head>
+<body>
+<script>
+    let taulu =[];
+    for(i=1; i<=3; i++){
+      let tallenne = +prompt('Anna kolme lukua:');
+      taulu.push(tallenne);
+    }
+
+    function vertaa(x) {
+      x.sort();
+      x.reverse();
+      return x[0];
+    }
+    document.write(vertaa(taulu));
+
+
+
+
+   /* let taulu = [];
+    for (; ;) {
+      const numero = +prompt('Anna luku. Nolla keskeyttää ohjelman');
+      if (numero === 0) {
+        break;
+      }
+      taulu.push(numero);
+    }
+    taulu.sort();
+    taulu.reverse();
+    for (let i = 0; i < taulu.length; i++) {
+      document.write(taulu[i] + '<br>');
+    }
+    ;*/
+</script>
+</body>
+</html>

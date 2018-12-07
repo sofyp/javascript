@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>T5</title>
+</head>
+<body>
+<script>
+    let kuinkamonta, tallenna=[];
+    kuinkamonta= +prompt('Kuinka monta nimeä haluat antaa?');
+
+    function liitä(x,y) {
+      for (i=0; y>i; i++){
+        let nimi = prompt('Anna nimi');
+        x.push(nimi);
+
+      }return x.toString();
+    }
+    document.write(liitä(tallenna, kuinkamonta));
+
+</script>
+</body>
+</html>

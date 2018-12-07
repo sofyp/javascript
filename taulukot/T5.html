@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>T5</title>
+</head>
+<body>
+<script>
+
+  let lukuja = [];
+  for (; ;) {
+    let numero = +prompt('Anna lukuja välillä 1-1000. Sama luku keskeyttää ohjelman');
+    if (numero<1 || numero > 1000){
+     alert('väärä');
+    }
+    else if (lukuja.includes(numero)) {
+      document.write('Luku on jo annettu!');
+      break;
+    }else{
+      lukuja.push(numero);
+    }
+  };
+/*    let lukuja = [];
+    for (; ;) {
+      let numero = +prompt('Anna lukuja. Sama luku keskeyttää ohjelman');
+
+      let tarkista = lukuja.push(numero);
+      if (lukuja.includes(numero)) {
+        document.write('Luku on jo annettu!');
+        break;
+      }else{
+        ;
+      }
+    };*/
+</script>
+</body>
+</html>

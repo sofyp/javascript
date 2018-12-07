@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>T1</title>
+</head>
+<body>
+<script>
+    var gallonat;
+    gallonat = +prompt('Muunnan gallonat litroiksi. Anna määrä:');
+    function muunnos(gal) {
+      var litrat;
+      litrat= gal*3.685;
+      return litrat;
+      if (gal=1){
+        return 3.685;
+      }
+    }
+    document.write('Antamasi gallonat litroina: ' + muunnos(gallonat) + ' litraa.')
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>T2</title>
+</head>
+<body>
+<script>
+  let lkm, osallistujat = [];
+  lkm= +prompt('Osallistujien määrä?');
+
+
+  for(let i=0; i<lkm; i++){
+    osallistujat[i]= prompt('Anna osallistujan nimi: ');
+  };
+    document.write('<ol> Osallistujien nimet ovat: ' + '<br>');
+
+  for(i=0; i<osallistujat.length; i++){
+    document.write('<li>' + osallistujat[i] + '</li> <br>');
+  };
+    document.write('</ol>');
+
+</script>
+</body>
+</html>

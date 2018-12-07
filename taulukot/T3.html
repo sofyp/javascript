@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>T3</title>
+</head>
+<body>
+<script>
+  var koirat = [];
+  /*Taulukon nimi on koirat. Taulukon paikkoja ei ole vielä määritelty*/
+
+  for (var nimi = 0; nimi < 6; nimi++) { /*Nimi on tässä tapauksessa taulukon paikka, johon annettu nimi tallennetaan*/
+    koirat[nimi] = prompt('Anna koiran nimi');
+  }
+  ;
+
+  document.write('<ul> Koirien nimet käänteisessä aakkosjärjestyksessä: ' + '<br>');
+  koirat.sort();
+  koirat.reverse();
+
+  for (var nimi = 0; nimi < 6; nimi++) {
+    document.write('<li>' + koirat[nimi] + '</li>');
+  }
+  ;
+  document.write('</ul>');
+</script>
+</body>
+</html>
