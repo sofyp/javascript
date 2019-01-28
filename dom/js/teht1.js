@@ -26,5 +26,4 @@ nickname.remove();
 const nickheader= document.getElementsByTagName('th')[2];
 nickheader.remove();
 
-//document.getElementsByTagName('tr')[1].innerHTML = '<td>Vanha maantie 6, 02650 EPSOO</td>';
 
