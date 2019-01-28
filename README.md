@@ -1,2 +1,2 @@
 # javascript
-Koulun tehtävänä tehtyjä DOM-kokeiluja
+Javascript kokeiluja ja tehtäviä.
